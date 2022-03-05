@@ -1,0 +1,71 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-left: 0px;
+}
+
+.outer-container {
+  background-color: #f8fafc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: darkorange;
+  border-style: solid;
+  box-shadow: 5px 5px, 5px 5px, 5px 5px white;
+}
+
+.events-container {
+  background-color: #64748b;
+}
+
+.active-event-registration-details {
+  width: 45%;
+  text-shadow: 2px 2px 5px white;
+  font-family: 'Roboto';
+}
+
+.registered-url {
+  width: 100px;
+}
+
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registered-content {
+  font-family: 'Roboto';
+  font-size: medium;
+}
+
+.registered-closed-image {
+  width: 200px;
+}
+
+.registrations-closed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.yet-to-registered-image {
+  width: 70%;
+}
+
+.register-button {
+  background-color: #0967d2;
+  padding: 6px;
+  color: #ffffff;
+  border-radius: 3px;
+  border-style: none;
+}

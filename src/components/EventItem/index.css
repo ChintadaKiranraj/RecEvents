@@ -1,0 +1,24 @@
+.image-url {
+  width: 300px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f8fafc;
+  font-size: 15px;
+}
+.location {
+  font-size: 10px;
+}
+
+.isActive {
+  border-style: solid;
+  border-color: #2dd4bf;
+  border-radius: 10px;
+}
+
+.event-button {
+  background-color: transparent;
+  border-style: none;
+}
